@@ -56,6 +56,33 @@ Navigate to the
 locahost:5000
 ```
 
+## API Usage
+
+This application provides an API endpoint for calculating IPF GL points.
+
+### Endpoint
+
+POST `/api/calculate`
+
+### Request Body
+
+Send a JSON object with the following properties:
+
+- `total` (number): The total weight lifted in kilograms
+- `bodyweight` (number): The lifter's bodyweight in kilograms
+- `sex` (string): Either "man" or "woman"
+- `lift_type` (string): Either "powerlifting" for full powerlifting (3-lift) or "bench" for bench press only
+
+Example:
+
+```json
+{
+  "total": 500,
+  "bodyweight": 75,
+  "sex": "man",
+  "lift_type": "powerlifting"
+}
+
 
 
 
