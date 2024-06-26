@@ -1,5 +1,5 @@
 # SIMPLE FLASK APP TO CALCULATE IPF GL POINTS
-Formula avaible [at](https://www.powerlifting.sport/fileadmin/ipf/data/ipf-formula/IPF_GL_Coefficients-2020.pdf)
+Formula available at [official page](https://www.powerlifting.sport/fileadmin/ipf/data/ipf-formula/IPF_GL_Coefficients-2020.pdf).
 
 ### Run with docker
 Run the image from the docker hub.
